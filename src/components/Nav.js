@@ -1,7 +1,7 @@
 const Nav = () => {
 	return (
-		<nav>
-			<ul>
+		<nav className="">
+			<ul className="flex invisible">
 				<li>
 					<a href="/" role="button">
 						Home
@@ -25,6 +25,11 @@ const Nav = () => {
 				<li>
 					<a href="/order-online" role="button">
 						Order Online
+					</a>
+				</li>
+				<li>
+					<a href="/login" role="button">
+						Login
 					</a>
 				</li>
 			</ul>
