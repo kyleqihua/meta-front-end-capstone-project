@@ -1,6 +1,6 @@
 const Nav = () => {
 	return (
-		<nav className="hidden">
+		<nav className="hidden sm:block">
 			<ul className="flex ">
 				<li>
 					<a href="/" role="button">

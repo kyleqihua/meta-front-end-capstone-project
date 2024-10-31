@@ -1,10 +1,15 @@
+import CallToAction from './CallToAction';
+import Chicago from './Chicago';
+import CustomersSay from './CustomersSay';
+import Specials from './Specials';
+
 const Main = () => {
 	return (
 		<main>
-			<section className="border-2">hero section</section>
-			<section>special section</section>
-			<section>testimonials section</section>
-			<section>about section</section>
+			<CallToAction />
+			<Specials />
+			<CustomersSay />
+			<Chicago />
 		</main>
 	);
 };
