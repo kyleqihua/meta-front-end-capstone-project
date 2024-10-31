@@ -1,7 +1,7 @@
 const Main = () => {
 	return (
 		<main>
-			<section>hero section</section>
+			<section className="border-2">hero section</section>
 			<section>special section</section>
 			<section>testimonials section</section>
 			<section>about section</section>

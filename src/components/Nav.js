@@ -1,7 +1,7 @@
 const Nav = () => {
 	return (
-		<nav className="">
-			<ul className="flex invisible">
+		<nav className="hidden">
+			<ul className="flex ">
 				<li>
 					<a href="/" role="button">
 						Home
