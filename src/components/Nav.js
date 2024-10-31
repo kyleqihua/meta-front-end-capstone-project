@@ -1,36 +1,37 @@
+import { Link } from 'react-router-dom';
 const Nav = () => {
 	return (
 		<nav className="hidden sm:block">
 			<ul className="flex ">
 				<li>
-					<a href="/" role="button">
+					<Link to="/" role="button">
 						Home
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/about" role="button">
+					<Link to="/about" role="button">
 						About
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/menu" role="button">
+					<Link to="/menu" role="button">
 						Menu
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/reservations" role="button">
+					<Link to="/reservations" role="button">
 						Reservations
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/order-online" role="button">
+					<Link to="/order-online" role="button">
 						Order Online
-					</a>
+					</Link>
 				</li>
 				<li>
-					<a href="/login" role="button">
+					<Link to="/login" role="button">
 						Login
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</nav>
