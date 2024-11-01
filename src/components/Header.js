@@ -9,7 +9,7 @@ const Header = () => {
 			<img src={Hamburger} alt="hamburger menu icon" />
 			<img src={Logo} alt="logo" className="border" />
 			<img src={Basket} alt="basket icon" />
-			<Nav />
+			<Nav variant="header" />
 		</header>
 	);
 };

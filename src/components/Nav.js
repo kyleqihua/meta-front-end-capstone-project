@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-const Nav = () => {
+const Nav = (props) => {
 	return (
-		<nav className="hidden sm:block">
-			<ul className="flex ">
+		<nav className={props.variant === 'header' ? 'hidden sm:block' : ''}>
+			<ul className={props.variant === 'header' ? 'flex' : 'flex flex-col'}>
 				<li>
 					<Link to="/" role="button">
 						Home
