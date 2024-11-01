@@ -5,7 +5,7 @@ import Nav from './Nav.js';
 
 const Header = () => {
 	return (
-		<header className="flex justify-between border">
+		<header className="flex justify-between">
 			<img src={Hamburger} alt="hamburger menu icon" />
 			<img src={Logo} alt="logo" className="border" />
 			<img src={Basket} alt="basket icon" />

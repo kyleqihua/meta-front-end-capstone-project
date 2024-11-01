@@ -21,10 +21,6 @@ const Main = () => {
 				<Route path="/order-online" element={<OrderOnlinePage />}></Route>
 				<Route path="/login" element={<LoginPage />}></Route>
 			</Routes>
-			{/* <CallToAction />
-			<Specials />
-			<CustomersSay />
-			<Chicago /> */}
 		</main>
 	);
 };
