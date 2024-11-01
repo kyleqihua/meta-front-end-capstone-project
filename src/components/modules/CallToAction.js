@@ -1,5 +1,5 @@
 // import Salad from "../../assets/images/greek salad.jpg";
-import RestaurantFood from '../../assets/images/restauranfood.jpg';
+import RestaurantFood from "../../assets/images/restauranfood.jpg";
 const CallToAction = () => {
 	return (
 		<section
