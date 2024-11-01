@@ -5,9 +5,9 @@ import LemonDessert from '../../assets/images/lemon dessert.jpg';
 
 const Specials = () => {
 	return (
-		<section>
-			<p>ORDER FOR DELIVERY!</p>
-			<article className="flex justify-between">
+		<section className="font-karla py-8">
+			<p className="text-xl font-extrabold">ORDER FOR DELIVERY!</p>
+			<article className="flex font-extrabold justify-between pt-1">
 				<button>Lunch</button>
 				<button>Mains</button>
 				<button>Desserts</button>

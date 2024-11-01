@@ -1,11 +1,13 @@
 const DishCard = (props) => {
 	return (
-		<article className="border border-yellow-300 flex ">
+		<article className="border border-yellow-300 flex my-4">
 			<div>
-				<h3>{props.name}</h3>
-				<p>
-					{props.des}
-					<p>{props.price}</p>
+				<h3 className="text-lg font-bold">{props.name}</h3>
+				<p className="">
+					<p className="border border-yellow-300 text-highlight2 h-12 overflow-hidden mr-2">
+						{props.des}
+					</p>
+					<p className="text-lg">{props.price}</p>
 				</p>
 			</div>
 			<img

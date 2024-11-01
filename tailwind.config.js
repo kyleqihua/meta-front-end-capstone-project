@@ -11,6 +11,10 @@ module.exports = {
 				highlight1: '#EDEFEE',
 				highlight2: '#333333',
 			},
+			fontFamily: {
+				markazi: ['"Markazi Text"', 'serif'],
+				karla: ['Karla', 'serif'],
+			},
 		},
 	},
 	plugins: [],
