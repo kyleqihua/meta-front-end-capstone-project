@@ -1,9 +1,9 @@
 import Logo from '../assets/images/logo.svg';
-import Nav from './Nav';
+import Nav from './modules/Nav';
 const Footer = () => {
 	return (
 		<footer>
-			<div>
+			<div className="border border-yellow-300">
 				<img src={Logo} />
 				<h6>Made by Kyle Qihua</h6>
 			</div>

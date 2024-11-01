@@ -1,13 +1,13 @@
-import AboutPage from './AboutPage';
-import CallToAction from './CallToAction';
-import Chicago from './Chicago';
-import CustomersSay from './CustomersSay';
-import Homepage from './Homepage';
-import LoginPage from './LoginPage';
-import MenuPage from './MenuPage';
-import OrderOnlinePage from './OrderOnlinePage';
-import ReservationsPage from './ReservationsPage';
-import Specials from './Specials';
+import AboutPage from './pages/AboutPage';
+import CallToAction from './modules/CallToAction';
+import Chicago from './modules/Chicago';
+import CustomersSay from './modules/CustomersSay';
+import Homepage from './pages/Homepage';
+import LoginPage from './pages/LoginPage';
+import MenuPage from './pages/MenuPage';
+import OrderOnlinePage from './pages/OrderOnlinePage';
+import ReservationsPage from './pages/ReservationsPage';
+import Specials from './modules/Specials';
 import { Routes, Route } from 'react-router-dom';
 
 const Main = () => {

@@ -1,4 +1,4 @@
-import Restaurant from '../assets/images/restaurant.jpg';
+import Restaurant from '../../assets/images/restaurant.jpg';
 const Chicago = () => {
 	return (
 		<section>

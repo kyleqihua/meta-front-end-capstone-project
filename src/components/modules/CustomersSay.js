@@ -1,5 +1,5 @@
 import TestimonalCard from './TestimonalCard';
-import Charles from '../assets/images/image.webp';
+import Charles from '../../assets/images/image.webp';
 
 const CustomersSay = () => {
 	return (

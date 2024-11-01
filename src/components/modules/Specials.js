@@ -1,7 +1,7 @@
 import DishCard from './DishCard';
-import Salad from '../assets/images/greek salad.jpg';
-import Bruchetta from '../assets/images/bruchetta.svg';
-import LemonDessert from '../assets/images/lemon dessert.jpg';
+import Salad from '../../assets/images/greek salad.jpg';
+import Bruchetta from '../../assets/images/bruchetta.svg';
+import LemonDessert from '../../assets/images/lemon dessert.jpg';
 
 const Specials = () => {
 	return (
