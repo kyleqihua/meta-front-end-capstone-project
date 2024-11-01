@@ -1,13 +1,13 @@
 const DishCard = (props) => {
 	return (
 		<article className="border border-yellow-300 flex ">
-			<main>
+			<div>
 				<h3>{props.name}</h3>
 				<p>
 					{props.des}
 					<p>{props.price}</p>
 				</p>
-			</main>
+			</div>
 			<img
 				src={props.image}
 				alt={`${props.name} dish`}

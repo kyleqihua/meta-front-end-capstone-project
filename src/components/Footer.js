@@ -1,4 +1,4 @@
 const Footer = () => {
-	return <footer>Copyright © 2024 Little Lemon</footer>;
+	return <footer>Made by KyleQihua Copyright © 2024 Little Lemon</footer>;
 };
 export default Footer;

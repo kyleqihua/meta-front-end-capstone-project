@@ -1,4 +1,5 @@
 import Salad from '../assets/images/greek salad.jpg';
+import RestaurantFood from '../assets/images/restauranfood.jpg';
 const CallToAction = () => {
 	return (
 		<section className="h-72 mt-1 bg-primary1 -mx-3" aria-label="Hero Section">
@@ -22,7 +23,7 @@ const CallToAction = () => {
 						</button>
 					</main>
 					<img
-						src={Salad}
+						src={RestaurantFood}
 						className="w-32 aspect-square self-start rounded-lg object-cover"
 						alt="Greek salad with fresh vegetables"
 					/>
